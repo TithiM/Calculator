@@ -1,0 +1,91 @@
+/* Calculator.css */
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bt{
+    background-color: darkblue;
+  }
+  .history-button {
+    background-color: #f8f9fa; /* Blue color for the "History" button */
+    border: none;
+    border-radius: 50px;
+    width:10px;
+    height:10px;
+    cursor: pointer;
+    margin-bottom: -30px;
+    margin-left:-100px;
+  }
+  
+  .display-screen {
+    background-color: darkblue;
+    color: white;
+    font-size: 24px;
+    width: 180px;
+    height:70px;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 0px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .op{
+
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    border: none;
+    
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #aeabab;
+  }
+  
+  .history {
+    background-color:darkblue;
+    color: white;
+    padding: 10px;
+    border: 0px;
+    border-radius: 2px;
+    text-align: right;
+    width:180px;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+ 
+  .op{
+    width:25px;
+  }
